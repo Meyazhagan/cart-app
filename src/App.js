@@ -12,7 +12,7 @@ import productData from "./data/ProductData.json";
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = { headData, productData, message: [] };
+    this.state = { headData, productData, message: [], msgIndex: 1 };
   }
 
   componentDidMount() {
@@ -20,19 +20,20 @@ class App extends Component {
   }
 
   render() {
+    const { headData, productData, message, msgIndex } = this.state;
     return (
       <>
-        <Header data={this.state.headData} clearCart={this.clearCart} />
-        <Body data={this.state.productData} handleCart={this.handleCart} />
-        {this.state.message.map((msg, index) => (
-          <Message key={index} message={msg} />
+        <Header data={headData} clearCart={this.clearCart} />
+        <Body data={productData} handleCart={this.handleCart} />
+        {message.map((msg, index) => (
+          <Message key={msgIndex} message={msg} />
         ))}
-        <Footer data={this.state.headData.credit} />
+        <Footer data={headData.credit} />
       </>
     );
   }
   handleCart = (index) => {
-    const { headData, productData, message } = this.state;
+    const { headData, productData, msgIndex } = this.state;
     const newProductData = [...productData];
     let info = "";
     if (index + 1) {
@@ -55,12 +56,13 @@ class App extends Component {
         cart: { items: newItems, count: newItems.length },
       },
       productData: [...newProductData],
-      message: [...message, info],
+      message: [info],
+      msgIndex: msgIndex + 1,
     });
   };
 
   clearCart = () => {
-    const { headData, productData } = this.state;
+    const { headData, productData, msgIndex } = this.state;
     const newProductData = [...productData];
     const newItems = [];
     newProductData.forEach((prod) => {
@@ -72,7 +74,8 @@ class App extends Component {
         cart: { items: newItems, count: 0 },
       },
       productData: [...newProductData],
-      message: [],
+      message: ["Cart Cleared"],
+      msgIndex: msgIndex + 1,
     });
   };
 }
