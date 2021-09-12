@@ -11,6 +11,11 @@
             "active":false
         },
         {
+            "value":"Cart",
+            "link":"#",
+            "active":false
+        },
+        {
             "value":"Shop",
             "link":"#",
             "active":false,

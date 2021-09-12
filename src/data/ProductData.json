@@ -1,8 +1,8 @@
 [
     {
         "title":"Product 1",
-        "oldPrice":"",
-        "newPrice":"$40.00 - $80.00",
+        "oldPrice":"$60.00",
+        "newPrice":"$50.00",
         "rating" : "4.5",
         "sale": true,
         "inCart": true,
@@ -10,8 +10,8 @@
     },
     {
         "title":"Product 2",
-        "oldPrice":"",
-        "newPrice":"$40.00 - $80.00",
+        "oldPrice":"$70.00",
+        "newPrice":"$69.00",
         "rating" : "4",
         "sale": false,
         "inCart": true,
@@ -19,8 +19,8 @@
     },
     {
         "title":"Product 3",
-        "oldPrice":"",
-        "newPrice":"$40.00 - $80.00",
+        "oldPrice":"$180.00",
+        "newPrice":"$140.00",
         "rating" : "3.5",
         "sale": true,
         "inCart": false,
@@ -55,7 +55,7 @@
     },
     {
         "title":"Product 7",
-        "oldPrice":"",
+        "oldPrice":"$150.00",
         "newPrice":"$20.00 - $80.00",
         "rating" : "1.5",
         "sale": false,
