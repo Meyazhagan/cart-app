@@ -1,0 +1,79 @@
+{
+    "navBar":[
+        {
+            "value":"Home",
+            "link":"#",
+            "active":true
+        },
+        {
+            "value":"About",
+            "link":"#",
+            "active":false
+        },
+        {
+            "value":"Shop",
+            "link":"#",
+            "active":false,
+            "dropdown":[
+                {
+                    "value":"All Products",
+                    "link":"#!"
+                },
+                {
+                    "value":"New Products",
+                    "link":"#!"
+                },
+                {
+                    "value":"",
+                    "link":"#!"
+                },
+                {
+                    "value":"Popular Items",
+                    "link":"#!"
+                },
+                {
+                    "value":"New Arrivals",
+                    "link":"#!"
+                },
+                {
+                    "value":"Trending",
+                    "link":"#!"
+                }
+            ]
+        }, 
+        {
+            "value":"New Options",
+            "link":"#",
+            "active":false,
+            "dropdown":[
+                {
+                    "value":"New Products",
+                    "link":"#"
+                },
+                {
+                    "value":"",
+                    "link":"#!"
+                },
+                {
+                    "value":"Popular Items",
+                    "link":"#!"
+                },
+                {
+                    "value":"Trending",
+                    "link":"#!"
+                }
+            ]
+        }
+    ],
+    "cart":{
+        "count":0,
+        "items":[]
+    },
+    "heading":{
+        "title": "Shop in style",
+        "desc" :"With this shop Bootstrap template"
+    },
+    "credit":{
+        "created" : "Meyazhagan"
+    }
+}

@@ -1,0 +1,101 @@
+[
+    {
+        "title":"Product 1",
+        "oldPrice":"",
+        "newPrice":"$40.00 - $80.00",
+        "rating" : "4.5",
+        "sale": true,
+        "inCart": false,
+        "imageUrl": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg" 
+    },
+    {
+        "title":"Product 2",
+        "oldPrice":"",
+        "newPrice":"$40.00 - $80.00",
+        "rating" : "4",
+        "sale": false,
+        "inCart": false,
+        "imageUrl": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg" 
+    },
+    {
+        "title":"Product 3",
+        "oldPrice":"",
+        "newPrice":"$40.00 - $80.00",
+        "rating" : "3.5",
+        "sale": true,
+        "inCart": false,
+        "imageUrl": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg" 
+    },
+    {
+        "title":"Product 4",
+        "oldPrice":"",
+        "newPrice":"$40.00 - $80.00",
+        "rating" : "3",
+        "sale": false,
+        "inCart": false,
+        "imageUrl": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg" 
+    },
+    {
+        "title":"Product 5",
+        "oldPrice":"",
+        "newPrice":"$40.00 - $80.00",
+        "rating" : "2.5",
+        "sale": true,
+        "inCart": false,
+        "imageUrl": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg" 
+    },
+    {
+        "title":"Product 6",
+        "oldPrice":"$80.00",
+        "newPrice":"$60.00",
+        "rating" : "2",
+        "sale": false,
+        "inCart": false,
+        "imageUrl": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg" 
+    },
+    {
+        "title":"Product 7",
+        "oldPrice":"",
+        "newPrice":"$20.00 - $80.00",
+        "rating" : "1.5",
+        "sale": false,
+        "inCart": false,
+        "imageUrl": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg" 
+    },
+    {
+        "title":"Product 8",
+        "oldPrice":"$80.00",
+        "newPrice":"$40.00",
+        "rating" : "1",
+        "sale": true,
+        "inCart": false,
+        "imageUrl": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg" 
+    },
+    {
+        "title":"Product 9",
+        "oldPrice":"",
+        "newPrice":"$20.00 - $50.00",
+        "rating" : "0.5",
+        "sale": true,
+        "inCart": false,
+        "imageUrl": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg" 
+    },
+    {
+        "title":"Product 10",
+        "oldPrice":"$40.00",
+        "newPrice":"$38.00",
+        "rating" : "0",
+        "sale": true,
+        "inCart": false,
+        "imageUrl": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg" 
+    },
+    {
+        "title":"Product 11",
+        "oldPrice":"",
+        "newPrice":"$38.00",
+        "rating" : "5",
+        "sale": false,
+        "inCart": false,
+        "imageUrl": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg" 
+    }
+]
