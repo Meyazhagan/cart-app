@@ -21,7 +21,11 @@ class NavBar extends Component {
           <ul className="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
             {navBar.map((nav, index) => createNavList(nav, index))}
           </ul>
-          <button className="btn btn-outline-dark" onClick={clearCart}>
+          <button
+            className="btn btn-outline-dark"
+            onClick={clearCart}
+            title="Clear Cart"
+          >
             <i className="bi-cart-fill me-1"></i>
             Cart
             <span className="badge bg-dark text-white ms-1 rounded-pill">
