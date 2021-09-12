@@ -1,3 +1,5 @@
+import "../css/card.css";
+
 function Card(props) {
   const {
     data: { title, oldPrice, newPrice, rating, sale, inCart, imageUrl },
@@ -39,7 +41,7 @@ function Card(props) {
             <span className="text-muted text-decoration-line-through">
               {oldPrice}
             </span>
-            {newPrice}
+            {" " + newPrice}
           </div>
         </div>
         {/* <!-- Product actions--> */}
@@ -49,7 +51,11 @@ function Card(props) {
               className="btn btn-outline-dark mt-auto"
               onClick={() => handleCart(index)}
             >
-              {inCart ? "Remove from cart" : "Add to cart"}
+              {inCart ? (
+                <span style={{ color: "red" }}>Remove from cart</span>
+              ) : (
+                <span style={{ color: "green" }}>Add to cart</span>
+              )}
             </button>
           </div>
         </div>

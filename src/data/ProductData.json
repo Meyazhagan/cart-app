@@ -5,7 +5,7 @@
         "newPrice":"$40.00 - $80.00",
         "rating" : "4.5",
         "sale": true,
-        "inCart": false,
+        "inCart": true,
         "imageUrl": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg" 
     },
     {
@@ -14,7 +14,7 @@
         "newPrice":"$40.00 - $80.00",
         "rating" : "4",
         "sale": false,
-        "inCart": false,
+        "inCart": true,
         "imageUrl": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg" 
     },
     {
@@ -94,7 +94,7 @@
         "oldPrice":"",
         "newPrice":"$38.00",
         "rating" : "5",
-        "sale": false,
+        "sale": true,
         "inCart": false,
         "imageUrl": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg" 
     }
